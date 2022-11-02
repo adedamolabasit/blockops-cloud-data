@@ -8,9 +8,9 @@ import './index.css'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   
-    <div className='body w-screen mx-auto  bg-[#E5E5E5] w-screen'>
+    <body className='w-screen mx-auto   font-inter w-screen h-[100%]'>
     <App />
-    </div>
+    </body>
 
 );
 

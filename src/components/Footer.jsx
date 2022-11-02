@@ -1,8 +1,8 @@
 import React from "react";
-import facebook from "../assets/001-facebook.png";
-import twitter from "../assets/003-twitter.png";
-import instagram from "../assets/004-instagram.png";
-import linkedin from "../assets/linkedin 1.png";
+import facebook from "../assets/001-facebook.svg";
+import twitter from "../assets/003-twitter.svg";
+import instagram from "../assets/004-instagram.svg";
+import linkedin from "../assets/linkedin 1.svg";
 
 function Footer() {
   return (
@@ -21,11 +21,11 @@ function Footer() {
             <p>All rights reserved</p>
           </div>
         </div>
-        <div className="flex gap-10 text-white">
-          <img src={facebook} alt="facebook" className="w-[15px] h-[15px]" />
-          <img src={twitter} alt="twitter" className="w-[15px] h-[15px]" />
-          <img src={instagram} alt="instagram" className="w-[15px] h-[15px]" />
-          <img src={linkedin} alt="linkedin" className="w-[15px] h-[15px]" />
+        <div className="flex gap-[60px] text-white">
+          <img src={facebook} alt="facebook" className="w-[20px] h-[20px]" />
+          <img src={twitter} alt="twitter" className="w-[20px] h-[20px]" />
+          <img src={instagram} alt="instagram" className="w-[20px] h-[20px]" />
+          <img src={linkedin} alt="linkedin" className="w-[20px] h-[20px]" />
         </div>
       </div>
     </div>
