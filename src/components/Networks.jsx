@@ -3,7 +3,7 @@ import { networks } from "../networks";
 
 function Networks() {
   return (
-    <div className="flex  flex-wrap gap-[28px] mt-[128px] w-screen px-[50px]">
+    <div className="flex  flex-wrap gap-[28px] mt-[128px] w-screen px-[100px]">
       {networks.map((network) => {
         return (
           

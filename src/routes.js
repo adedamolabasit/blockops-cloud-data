@@ -2,7 +2,7 @@ import Index from "./pages/Index"
 
 export const routes = [
     {
-        path:"/index",
+        path:"/",
         element:<Index/>
     },
     {
