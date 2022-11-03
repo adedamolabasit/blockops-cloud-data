@@ -4,7 +4,7 @@ import { networks } from "../networks";
 function Networks() {
   return (
     <div>
-      <div className="flex  flex-wrap justify-evenly  mt-[96px] w-screen px-[100px]">
+      <div className="flex  flex-wrap justify-between  mt-[96px] w-screen px-[100px]">
         {networks.map((network) => {
           return (
             <button

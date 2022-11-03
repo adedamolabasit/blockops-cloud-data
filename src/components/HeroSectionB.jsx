@@ -18,7 +18,7 @@ function HeroSectionB() {
           Learn More
         </button>
       </div>
-      <div className="flex flex mt-[55px] w-[1200px] h-[134px] mx-[120px] bg-[#FFFFFF] justify-center shadow-xl px-[200px] py-[30px]">
+      <div className="flex flex mt-[55px] w-[1230px] h-[134px] mx-[100px] bg-[#FFFFFF] justify-center align-center shadow-xl px-[200px] py-[30px]">
       <h1 className="text-2xl ">
           BROUGHT TO YOU BY <span className="text-[#0060FF] text-bold">Nautilus</span>Technologies
         </h1>
