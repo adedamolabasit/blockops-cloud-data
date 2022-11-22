@@ -1,11 +1,14 @@
 import { routes } from "./routes";
 import {BrowserRouter as Router, Routes,Route} from "react-router-dom"
-
+import NetworkProvider from "./context/network";
+import TimerProvider from "./context/timer";
 function App() {
   return (
     <div className="container pt-[50px] h-screen  ">  
   <Router>
-      <Routes>
+    <NetworkProvider>
+      <TimerProvider>
+    <Routes>
         {
           routes.map((route,index) => {
             return(
@@ -13,6 +16,9 @@ function App() {
           )})
         }
       </Routes>
+      </TimerProvider>
+    </NetworkProvider>
+    
   </Router>
     </div>
   );

@@ -1,4 +1,6 @@
 import Index from "./pages/Index"
+import Network from "./pages/Network"
+
 
 export const routes = [
     {
@@ -6,7 +8,7 @@ export const routes = [
         element:<Index/>
     },
     {
-        path:"/network",
-        element:<Index/>
+        path:`/network`,
+        element:<Network/>
     },
 ]
