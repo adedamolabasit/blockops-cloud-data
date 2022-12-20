@@ -49,6 +49,7 @@ export const NetworksList = [
     cloud_query: {
       name: "Composable",
       runtime_size: "0.672 MB (704,321 bytes)",
+      archive_size: "",
       compressed: "Yes, 81.03%",
       reserved_meta: "OK - [6D, 65, 74, 61]",
       metadata_version: "V14",
@@ -72,6 +73,7 @@ export const NetworksList = [
     cloud_query: {
       name: "Picasso",
       runtime_size: "0.806 MB (844,857 bytes) ",
+      archive_size: "",
       compressed: "Yes, 80.43% ",
       reserved_meta: "OK - [6D, 65, 74, 61]",
       metadata_version: "V14",
@@ -94,6 +96,168 @@ export const NetworksList = [
     cloud_query: {
       name: "Dali",
       runtime_size: "1.001 MB (1,049,312 bytes)",
+      archive_size: "",
+      compressed: "Yes, 79.81% ",
+      reserved_meta: "OK - [6D, 65, 74, 61] ",
+      metadata_version: "V14",
+      core_version: "dali-2100 (dali-1.tx1.au1) ",
+      system_setcode_hash:
+        "0x8b8ff94f35ac77ab22464fca7f94d88ce25634b02ebb22764650ff94ff91dbcf",
+      authorize_upgrade_hash:
+        "0xe69c92eef3e8193cdb00a39552cab14a1961144944ac3a1173f9e15e9f944bbb ",
+      blake2_256_hash:
+        "0x79f3f39ef77ade624e14fb4eb6a6feb95298e1f5122b6eb41c2c8dde820a16bf",
+      ipfs: "https://www.ipfs.io/ipfs/QmVjNBK5mWfZ9Hy7a2p8h7eCSd1qB4tACfvHDwUJwWGsMS",
+    },
+  },
+  {
+    id: 4,
+    network: "Polkadot(RocksDB)",
+    details: "Snapashots for the Dali networks in RocksDb format",
+    link: "https://s3.eu-west-1.amazonaws.com/data.blockops.network/polkadot/",
+    slug: "dali-rococo-data-store",
+    cloud_query: {
+      name: "Dali",
+      runtime_size: "1.001 MB (1,049,312 bytes)",
+      archive_size: "",
+      compressed: "Yes, 79.81% ",
+      reserved_meta: "OK - [6D, 65, 74, 61] ",
+      metadata_version: "V14",
+      core_version: "dali-2100 (dali-1.tx1.au1) ",
+      system_setcode_hash:
+        "0x8b8ff94f35ac77ab22464fca7f94d88ce25634b02ebb22764650ff94ff91dbcf",
+      authorize_upgrade_hash:
+        "0xe69c92eef3e8193cdb00a39552cab14a1961144944ac3a1173f9e15e9f944bbb ",
+      blake2_256_hash:
+        "0x79f3f39ef77ade624e14fb4eb6a6feb95298e1f5122b6eb41c2c8dde820a16bf",
+      ipfs: "https://www.ipfs.io/ipfs/QmVjNBK5mWfZ9Hy7a2p8h7eCSd1qB4tACfvHDwUJwWGsMS",
+    },
+  },
+  {
+    id: 5,
+    network: "Kusama(RocksDB)",
+    details: "Snapashots for the Dali networks in RocksDb format",
+    link: "https://s3.eu-west-1.amazonaws.com/data.blockops.network/kusama/",
+    slug: "dali-rococo-data-store",
+    cloud_query: {
+      name: "Dali",
+      runtime_size: "1.001 MB (1,049,312 bytes)",
+      archive_size: "",
+      compressed: "Yes, 79.81% ",
+      reserved_meta: "OK - [6D, 65, 74, 61] ",
+      metadata_version: "V14",
+      core_version: "dali-2100 (dali-1.tx1.au1) ",
+      system_setcode_hash:
+        "0x8b8ff94f35ac77ab22464fca7f94d88ce25634b02ebb22764650ff94ff91dbcf",
+      authorize_upgrade_hash:
+        "0xe69c92eef3e8193cdb00a39552cab14a1961144944ac3a1173f9e15e9f944bbb ",
+      blake2_256_hash:
+        "0x79f3f39ef77ade624e14fb4eb6a6feb95298e1f5122b6eb41c2c8dde820a16bf",
+      ipfs: "https://www.ipfs.io/ipfs/QmVjNBK5mWfZ9Hy7a2p8h7eCSd1qB4tACfvHDwUJwWGsMS",
+    },
+  },
+  {
+    id: 6,
+    network: "Rococo(RocksDB)",
+    details: "Snapashots for the Dali networks in RocksDb format",
+    link: "https://composable-node-sync.s3.eu-west-1.amazonaws.com/dali-rococo/",
+    slug: "dali-rococo-data-store",
+    cloud_query: {
+      name: "Dali",
+      runtime_size: "1.001 MB (1,049,312 bytes)",
+      archive_size: "",
+      compressed: "Yes, 79.81% ",
+      reserved_meta: "OK - [6D, 65, 74, 61] ",
+      metadata_version: "V14",
+      core_version: "dali-2100 (dali-1.tx1.au1) ",
+      system_setcode_hash:
+        "0x8b8ff94f35ac77ab22464fca7f94d88ce25634b02ebb22764650ff94ff91dbcf",
+      authorize_upgrade_hash:
+        "0xe69c92eef3e8193cdb00a39552cab14a1961144944ac3a1173f9e15e9f944bbb ",
+      blake2_256_hash:
+        "0x79f3f39ef77ade624e14fb4eb6a6feb95298e1f5122b6eb41c2c8dde820a16bf",
+      ipfs: "https://www.ipfs.io/ipfs/QmVjNBK5mWfZ9Hy7a2p8h7eCSd1qB4tACfvHDwUJwWGsMS",
+    },
+  },
+  {
+    id: 7,
+    network: "Moonbeam(RocksDB)",
+    details: "Snapashots for the Dali networks in RocksDb format",
+    link: "https://composable-node-sync.s3.eu-west-1.amazonaws.com/dali-rococo/",
+    slug: "dali-rococo-data-store",
+    cloud_query: {
+      name: "Dali",
+      runtime_size: "1.001 MB (1,049,312 bytes)",
+      archive_size: "",
+      compressed: "Yes, 79.81% ",
+      reserved_meta: "OK - [6D, 65, 74, 61] ",
+      metadata_version: "V14",
+      core_version: "dali-2100 (dali-1.tx1.au1) ",
+      system_setcode_hash:
+        "0x8b8ff94f35ac77ab22464fca7f94d88ce25634b02ebb22764650ff94ff91dbcf",
+      authorize_upgrade_hash:
+        "0xe69c92eef3e8193cdb00a39552cab14a1961144944ac3a1173f9e15e9f944bbb ",
+      blake2_256_hash:
+        "0x79f3f39ef77ade624e14fb4eb6a6feb95298e1f5122b6eb41c2c8dde820a16bf",
+      ipfs: "https://www.ipfs.io/ipfs/QmVjNBK5mWfZ9Hy7a2p8h7eCSd1qB4tACfvHDwUJwWGsMS",
+    },
+  },
+  {
+    id: 8,
+    network: "Moonriver(RocksDB)",
+    details: "Snapashots for the Dali networks in RocksDb format",
+    link: "https://composable-node-sync.s3.eu-west-1.amazonaws.com/dali-rococo/",
+    slug: "dali-rococo-data-store",
+    cloud_query: {
+      name: "Dali",
+      runtime_size: "1.001 MB (1,049,312 bytes)",
+      archive_size: "",
+      compressed: "Yes, 79.81% ",
+      reserved_meta: "OK - [6D, 65, 74, 61] ",
+      metadata_version: "V14",
+      core_version: "dali-2100 (dali-1.tx1.au1) ",
+      system_setcode_hash:
+        "0x8b8ff94f35ac77ab22464fca7f94d88ce25634b02ebb22764650ff94ff91dbcf",
+      authorize_upgrade_hash:
+        "0xe69c92eef3e8193cdb00a39552cab14a1961144944ac3a1173f9e15e9f944bbb ",
+      blake2_256_hash:
+        "0x79f3f39ef77ade624e14fb4eb6a6feb95298e1f5122b6eb41c2c8dde820a16bf",
+      ipfs: "https://www.ipfs.io/ipfs/QmVjNBK5mWfZ9Hy7a2p8h7eCSd1qB4tACfvHDwUJwWGsMS",
+    },
+  },
+  {
+    id: 9,
+    network: "Astar(RocksDB)",
+    details: "Snapashots for the Dali networks in RocksDb format",
+    link: "https://composable-node-sync.s3.eu-west-1.amazonaws.com/dali-rococo/",
+    slug: "dali-rococo-data-store",
+    cloud_query: {
+      name: "Dali",
+      runtime_size: "1.001 MB (1,049,312 bytes)",
+      archive_size: "",
+      compressed: "Yes, 79.81% ",
+      reserved_meta: "OK - [6D, 65, 74, 61] ",
+      metadata_version: "V14",
+      core_version: "dali-2100 (dali-1.tx1.au1) ",
+      system_setcode_hash:
+        "0x8b8ff94f35ac77ab22464fca7f94d88ce25634b02ebb22764650ff94ff91dbcf",
+      authorize_upgrade_hash:
+        "0xe69c92eef3e8193cdb00a39552cab14a1961144944ac3a1173f9e15e9f944bbb ",
+      blake2_256_hash:
+        "0x79f3f39ef77ade624e14fb4eb6a6feb95298e1f5122b6eb41c2c8dde820a16bf",
+      ipfs: "https://www.ipfs.io/ipfs/QmVjNBK5mWfZ9Hy7a2p8h7eCSd1qB4tACfvHDwUJwWGsMS",
+    },
+  },
+  {
+    id: 10,
+    network: "Subspace(RocksDB)",
+    details: "Snapashots for the Dali networks in RocksDb format",
+    link: "https://composable-node-sync.s3.eu-west-1.amazonaws.com/dali-rococo/",
+    slug: "dali-rococo-data-store",
+    cloud_query: {
+      name: "Dali",
+      runtime_size: "1.001 MB (1,049,312 bytes)",
+      archive_size: "",
       compressed: "Yes, 79.81% ",
       reserved_meta: "OK - [6D, 65, 74, 61] ",
       metadata_version: "V14",

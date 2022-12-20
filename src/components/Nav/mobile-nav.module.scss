@@ -1,0 +1,54 @@
+.global-mobile-nav__menu {
+  @apply bg-black;
+  position: absolute;
+  height: 0;
+  width: 100vw;
+  top: -4px;
+  left: 0;
+  z-index: 9999999;
+
+  > ul {
+    padding: 7vh 35px 0 32px;
+    opacity: 1;
+    visibility: hidden;
+
+    &.is-active {
+      opacity: 1;
+      pointer-events: all;
+      visibility: visible;
+    }
+
+    li {
+      list-style: none;
+      margin-bottom: 14px;
+
+      a {
+        color: white;
+        line-height: 1.2;
+        text-transform: capitalize;
+        -webkit-tap-highlight-color: rgba(white, 0.06);
+        @apply text-xl flex items-center pb-2;
+
+        &:hover {
+          color: rgba(white, 0.6);
+        }
+
+        &.active {
+          svg {
+            transform: rotate(180deg);
+          }
+        }
+
+        svg {
+          margin-left: 10px;
+          height: 0.9em;
+          width: 0.9em;
+        }
+      }
+    }
+  }
+}
+
+.mobile-nav-is-active {
+  overflow: hidden;
+}

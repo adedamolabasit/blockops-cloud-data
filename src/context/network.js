@@ -1,5 +1,5 @@
 import { useState, useContext, createContext } from "react";
-import { useNavigate } from "react-router-dom";
+//import { useNavigate } from "react-router-dom";
 
 const NetworkContext = createContext();
 
