@@ -16,7 +16,6 @@ const NetworkProvider = ({ children }) => {
   return (
     <NetworkContext.Provider
       value={{ network, handleClick }}
-
     >
       {children}
     </NetworkContext.Provider>
