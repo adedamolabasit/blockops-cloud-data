@@ -2,12 +2,12 @@ import React from "react";
 import HeroSectionB from "../components/HeroSectionB";
 import Networks from "../components/Networks";
 import Footer from "../components/Footer";
-import Header from "../components/Header/Header";
+// import Header from "../components/Header/Header";
 
 function Index() {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <HeroSectionB />
       <Networks />
       <Footer />
