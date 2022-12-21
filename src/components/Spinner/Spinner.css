@@ -1,0 +1,33 @@
+/* KEYFRAMES */
+
+@keyframes spin {
+    from {
+      transform: rotate(0);
+    }
+    to{
+      transform: rotate(359deg);
+    }
+}
+  
+
+.spinner-box {
+    /* border: 1px solid black; */
+    width: 20px;
+    height: 20px;
+    margin: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+  
+  
+.three-quarter-spinner {
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+    border-top: 2px solid transparent;
+    border-radius: 50%;
+    animation: spin .5s linear 0s infinite;
+}

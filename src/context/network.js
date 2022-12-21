@@ -1,5 +1,5 @@
 import { useState, useContext, createContext } from "react";
-import { useNavigate } from "react-router-dom";
+//import { useNavigate } from "react-router-dom";
 
 const NetworkContext = createContext();
 
@@ -16,7 +16,6 @@ const NetworkProvider = ({ children }) => {
   return (
     <NetworkContext.Provider
       value={{ network, handleClick }}
-
     >
       {children}
     </NetworkContext.Provider>

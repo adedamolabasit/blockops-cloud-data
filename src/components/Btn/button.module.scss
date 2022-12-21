@@ -1,0 +1,14 @@
+.app_button {
+    @apply bg-[#0060FF] text-white p-4 rounded-lg transition-all duration-200;
+    &__secondary {
+      @apply bg-black text-white;
+    }
+    &__border {
+      @apply border bg-transparent;
+    }
+    &[disabled] {
+      opacity: 0.5;
+      pointer-events: none;
+    }
+  }
+  
