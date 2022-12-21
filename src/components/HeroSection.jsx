@@ -1,8 +1,10 @@
 import React from "react";
+import Header from "./Header/Header";
 
 function HeroSection() {
   return (
     <div className="flex px-[100px]">
+    <Header />
       <div className="flex flex-col ">
         <h1 className="font-bold text-3xl ">BlockOps</h1>
         <p className="font-normal text-sm text-[#5D5D5D] w-[70%]  mt-5">

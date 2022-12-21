@@ -17,6 +17,7 @@ function Network() {
     fetch(url, {method: 'HEAD'})
     .then(response => response.headers.get('Content-Length'))
     .then(size => {
+      console.log("cj",size)
       // Convert the size from bytes to megabytes
       const sizeInGB = size / 1000000000;
       // Display the size on the page
@@ -24,7 +25,7 @@ function Network() {
     })
     .catch((err) => {
       console.log(err);
-      setArchiveSize('Unavailable');
+      setArchiveSize('unavailable');
     });
   }, []);
 
