@@ -1,96 +1,96 @@
-.header {
-    @apply bg-[bg-transparent] w-[100vw] mt-[-60px] mb-20 border-b-[0.5px] border-[grey] py-5 md:px-20 sm:px-14 px-6 relative ;
+// .header {
+//     @apply bg-[bg-transparent] w-[100vw] mt-[-60px] mb-20 border-b-[0.5px] border-[grey] py-5 md:px-20 sm:px-14 px-6 relative ;
   
-    &_content {
-      @apply flex items-center justify-between w-full relative z-40;
+//     &_content {
+//       @apply flex items-center justify-between w-full relative z-40;
   
-      &_action {
-        @apply md:flex hidden items-center;
-        &_link {
-          @apply flex items-center text-black mr-8;
-          svg {
-            @apply ml-[8px];
-          }
-          img {
-            @apply w-5 h-5 mb-5 ml-1;
-          }
-        }
-      }
-    }
+//       &_action {
+//         @apply md:flex hidden items-center;
+//         &_link {
+//           @apply flex items-center text-black mr-8;
+//           svg {
+//             @apply ml-[8px];
+//           }
+//           img {
+//             @apply w-5 h-5 mb-5 ml-1;
+//           }
+//         }
+//       }
+//     }
   
-    .global-mobile-nav {
-      @apply md:hidden flex;
-      position: relative;
-      z-index: 99999999;
+//     .global-mobile-nav {
+//       @apply md:hidden flex;
+//       position: relative;
+//       z-index: 99999999;
   
-      &__trigger {
-        cursor: pointer;
-        display: inline-block;
-        position: relative;
-        // margin: 10px 5px;
-        margin-top: 4px;
-        height: 24px;
-        width: 24px;
-        margin-left: 15px;
-        margin-left: auto;
+//       &__trigger {
+//         cursor: pointer;
+//         display: inline-block;
+//         position: relative;
+//         // margin: 10px 5px;
+//         margin-top: 4px;
+//         height: 24px;
+//         width: 24px;
+//         margin-left: 15px;
+//         margin-left: auto;
   
-        span {
-        }
+//         span {
+//         }
   
-        &.light {
-          span {
-            background-color: white;
+//         &.light {
+//           span {
+//             background-color: white;
   
-            &:before,
-            &:after {
-              background-color: white;
-            }
-          }
-        }
+//             &:before,
+//             &:after {
+//               background-color: white;
+//             }
+//           }
+//         }
   
-        &.is-active {
-          span {
-            transform: translate3d(0, 10px, 0);
+//         &.is-active {
+//           span {
+//             transform: translate3d(0, 10px, 0);
   
-            &:before {
-              // opacity: 0;
-              transform: rotate(45deg) translate3d(-2.7px, -3px, 0);
-            }
+//             &:before {
+//               // opacity: 0;
+//               transform: rotate(45deg) translate3d(-2.7px, -3px, 0);
+//             }
   
-            &:after {
-              transform: translate3d(0, -12px, 0) rotate(-45deg);
-            }
-          }
-        }
-      }
+//             &:after {
+//               transform: translate3d(0, -12px, 0) rotate(-45deg);
+//             }
+//           }
+//         }
+//       }
   
-      span {
-        /*@apply bg-blue;*/
-        display: block;
-        position: absolute;
-        top: 5px;
-        border-radius: 2px;
-        transition: transform 0.3s ease;
+//       span {
+//         /*@apply bg-blue;*/
+//         display: block;
+//         position: absolute;
+//         top: 5px;
+//         border-radius: 2px;
+//         transition: transform 0.3s ease;
   
-        &:before,
-        &:after {
-          content: "";
-          position: absolute;
-          width: 25px;
-          height: 2px;
-          // border-radius: 2px;
-          transition: transform 0.3s ease;
-          /*@apply bg-blue;*/
-        }
+//         &:before,
+//         &:after {
+//           content: "";
+//           position: absolute;
+//           width: 25px;
+//           height: 2px;
+//           // border-radius: 2px;
+//           transition: transform 0.3s ease;
+//           /*@apply bg-blue;*/
+//         }
   
-        &:before {
-          top: 0px;
-        }
+//         &:before {
+//           top: 0px;
+//         }
   
-        &:after {
-          top: 8px;
-        }
-      }
-    }
-  }
+//         &:after {
+//           top: 8px;
+//         }
+//       }
+//     }
+//   }
   
