@@ -14,7 +14,7 @@ function ListedNetwork() {
       </p>
       <div className="flex items-stretch  w-[1200px] bg-black h-[111px] overflow-x-scroll px-6 my-6">
         <p className="text-white self-center">
-        curl -o - -L https://dot-rocksdb.polkashots.io/polkadot-12917839.RocksDb.tar.lz4 | lz4 -c -d - | tar -x -C /home/polkadot/.local/share/polkadot/chains/polkadot
+        curl -o - -L https://dot-rocksdb.blockops.network/polkadot-12917839.RocksDb.tar.lz4 | lz4 -c -d - | tar -x -C /home/polkadot/.local/share/polkadot/chains/polkadot
         </p>
       </div>
     </div>
@@ -24,7 +24,7 @@ function ListedNetwork() {
       </p>
       <div className="flex items-stretch  w-[1200px] bg-black h-[111px] overflow-x-scroll px-6 my-6">
         <p className="text-white self-center">
-        curl -o - -L https://dot-rocksdb.polkashots.io/snapshot | lz4 -c -d - | tar -x -C /home/polkadot/.local/share/polkadot/chains/polkadot
+        curl -o - -L https://dot-rocksdb.blockops.network/snapshot | lz4 -c -d - | tar -x -C /home/polkadot/.local/share/polkadot/chains/polkadot
         </p>
       </div>
     </div>

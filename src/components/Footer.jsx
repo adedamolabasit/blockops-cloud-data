@@ -6,16 +6,16 @@ import linkedin from "../assets/linkedin 1.svg";
 
 function Footer() {
   return (
-    <div className="bg-[#0C0E1F] h-[399px] w-screen  p-[119px] mt-4 mb-6 mt-[140px] ">
-      <div className="flex justify-between">
+    <div className="bg-[#0C0E1F] h-[399px] w-screen mt-4 mb-6 mt-[140px] pt-[100px]">
+      <div className="flex flex-col gap-[60px] md:flex-row md:px-[200px] items-center justify-between">
         <div className="flex flex-col ">
           <h1 className="font-bold text-3xl  text-white">BlockOps</h1>
           <div className="w-[128px] h-[2px] bg-[#FFFFFF]  mt-4 mb-6 font-bold"></div>
           <div className="text-[#FFFFFF80]">
             <p>
               Copyright 2022{" "}
-              <a href="nautilus.tech" className="text-[#0060FF]">
-                nautilus.tech
+              <a href="http://www.blockops.network/" className="text-[#0060FF]">
+                blockops.network
               </a>
             </p>
             <p>All rights reserved</p>
