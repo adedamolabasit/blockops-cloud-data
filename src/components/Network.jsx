@@ -21,7 +21,7 @@ function Network() {
       // Convert the size from bytes to megabytes
       const sizeInGB = size / 1000000000;
       // Display the size on the page
-      setArchiveSize(sizeInGB);
+      setArchiveSize(`${sizeInGB} GB`);
     })
     .catch((err) => {
       console.log(err);
@@ -30,19 +30,20 @@ function Network() {
   }, []);
 
   return (
-    <div className="px-28 w-screen">
+    <div className="px-10 mt-10 md:mt-0 md:px-28 w-screen">
       {/* header */}
-      <div className="flex  justify-between item-center">
-        <p className="font-bold text-3xl ">BlockOps snapshot</p>
-        <div className="flex flex-col">
+      <div className="flex flex-col gap-[30px] md:flex-row justify-between item-center">
+        <p className="font-bold text-3xl w-full">BlockOps snapshot</p>
+        <div className="flex flex-col md:ml-[100px] w-full">
           <h1 className="text-xl font-Inter ">
             BROUGHT TO YOU BY{" "}
             <span className="text-[#0060FF] text-bold">Blockops </span>
             Network
           </h1>
           <p className="text-[#121212] mt-1 text-sm">
-            A proof-of-stake infrastructure company - <br></br>we help you stake
-            your DOT.
+            We help you build, architect, and maintain scalable blockchain nodes for your organization. 
+            Our team has expertise in the design and maintenance of blockchain node infrastructure, 
+            ensuring that your nodes are reliable and perform at their best.
             <a
               href="/"
               className="text-[#0060FF] border-b-[1px] border-[#0060FF]"
@@ -57,21 +58,21 @@ function Network() {
       <div className="text-center mt-[100px] mb-6 text-2xl font-bold">{networks.network} Metadata</div>
       {/*  */}
       {/* table */}
-      <div className="flex  justify-center">
-        <table class="table-auto   w-[1200px]  ">
+      <div className="flex w-screen justify-center">
+        <table class="table-auto w-[1200px]">
           {NetworksList.map(
             (network) =>
               networks.network === network.network && (
                 <tbody>
                   {Object.keys(network.cloud_query).map((key) => {
                     return (
-                      <tr className="h-[50px]  text-left shadow-md bg-white w-screen">
+                      <tr className="h-[50px]  text-left shadow-md bg-white ">
                         <td className="border border-black-900 pl-6">{key}</td>
                         <td className="border border-black-900 pl-6">
                           {
                             key === 'archive_size'
                             ?
-                            archiveSize !== null ? `${archiveSize} GB` : <Spinner />
+                            archiveSize !== null ? archiveSize : <Spinner />
                             : 
                             network.cloud_query[key]
                           }

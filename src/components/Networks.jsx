@@ -43,21 +43,6 @@ function Networks() {
           );
         })}
       </div>
-      <div className="flex flex-col md:flex-row mt-[55px] w-full md:w-full h-[134px] mx-4 md:mx-[100px] bg-[#FFFFFF] justify-center align-center shadow-xl md:px-[200px] py-[30px]">
-        <h1 className="text-3xl font-bold px-2 md:text-lg ">
-          BROUGHT TO YOU BY <span className="text-[#0060FF] text-bold">Blockops</span> Network
-        </h1>
-        <div className="hidden md:block w-[2px] h-[45px] mr-[25px] bg-[#0C0E1F] font-bold drop-shadow-lg"></div>
-
-        <p className="px-6 text-center md:text-left text-[#121212] text-xs md:text-lg">
-          A proof-of-stake infrastructure company - we help you stake your DOT.
-         <a href="/" className="text-[#0060FF] border-b-[1px] border-[#0060FF]">Learn more.</a> 
-        </p>
-      </div>
-      <p className="px-[100px] font-semibold text-3xl pt-[25px]">
-        Check out our app.blockops managed Polkadot and Kusama Validator
-        service: safe, affordable and non-custodial.
-      </p>
     </div>
   );
 }

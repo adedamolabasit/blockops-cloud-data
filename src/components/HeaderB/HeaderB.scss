@@ -1,0 +1,20 @@
+.mobile-nav-span {
+    transition: transform 0.3s ease;
+    z-index: 99999999;
+    &:before, &:after {
+        width: 24px;
+        height: 2px;
+        background-color: grey;
+        transition: transform 0.3s ease;
+    }
+    &.nav-active {
+        &::before {
+            transform: rotate(45deg) translate3d(-2px, 5px, 0px);
+            margin-left: 2px;
+        }
+        &::after {
+            transform: rotate(-45deg) translate3d(2px, -9px, 0px);
+            margin-left: 2px;
+        }
+    }
+}
