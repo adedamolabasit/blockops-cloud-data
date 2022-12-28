@@ -43,19 +43,6 @@ function Networks() {
           );
         })}
       </div>
-      <div className="flex flex-col mx-auto w-[95vw] sm:flex-row mt-[55px] h-[auto] bg-[#FFFFFF] justify-center align-center shadow-xl md:px-[50px] py-[30px]">
-        <h1 className="text-3xl mb-[20px] px-10 text-center font-bold px-2 sm:text-lg ">
-          BROUGHT TO YOU BY <span className="text-[#0060FF] text-bold">Blockops</span> Network
-        </h1>
-        <div className="hidden sm:block w-[2px] h-auto mr-[25px] bg-[#0C0E1F] font-bold drop-shadow-lg"></div>
-
-        <p className="px-6 text-center text-lg sm:text-left text-[#121212] text-xs md:text-lg">
-          We help you build, architect, and maintain scalable blockchain nodes for your organization. 
-          Our team has expertise in the design and maintenance of blockchain node infrastructure, 
-          ensuring that your nodes are reliable and perform at their best.
-         <a href="/" className="text-[#0060FF] border-b-[1px] border-[#0060FF]">Learn more.</a> 
-        </p>
-      </div>
     </div>
   );
 }
